@@ -4,6 +4,9 @@
 
 using namespace std;
 
+//the case in main succeed in my computer and ideone under C++11 environment.
+//but RE in leetcode, I don't wanna modify it to fit the leetcode.
+
 bool match(const string &des, const string &src){
 	for (int i = 0; i < src.length(); ++i){
 		if(!(src[i] == des[i] || src[i] == '?'))
